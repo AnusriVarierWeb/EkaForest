@@ -1,20 +1,16 @@
-/* styles.css */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+    background-color: #0073e6;
+    color: white;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
+    padding: 20px;
 }
 
 nav ul {
@@ -22,70 +18,68 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
 
-nav ul li a {
-    color: #fff;
+nav a {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
     padding: 20px;
-    margin: 20px;
-    background-color: #fff;
+    background-color: white;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #0073e6;
 }
 
 .gallery {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    gap: 10px;
 }
 
-.gallery img {
-    width: 30%;
-    margin: 10px 0;
-    border-radius: 8px;
-}
+    .gallery img {
+        width: 30%;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    }
 
 form {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
-form label {
-    margin-bottom: 5px;
-}
-
-form input, form textarea {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-form button {
+input, textarea, button {
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #0073e6;
+    color: white;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
-form button:hover {
-    background-color: #555;
-}
+    button:hover {
+        background-color: #005bb5;
+    }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    margin-top: 20px;
 }
